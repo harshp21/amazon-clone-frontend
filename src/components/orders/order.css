@@ -1,0 +1,14 @@
+.orders__container {
+  background: #fff;
+  padding: 20px;
+}
+.orders {
+  padding: 50px;
+}
+
+.order__container_title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+}
