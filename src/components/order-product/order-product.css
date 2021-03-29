@@ -1,0 +1,23 @@
+.order-product__container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding-bottom: 25px;
+}
+.order-product__container_user {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-product_title {
+  font-weight: bold;
+}
+
+.order-success,
+.order-failure {
+  font-weight: bold;
+  color: #06c806;
+  text-transform: uppercase;
+}
+.order-failure {
+  color: #fa0909;
+}
